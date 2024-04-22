@@ -1,0 +1,9 @@
+Module
+  name: client_jumpingbutton
+  description: Display a UI element with a moving button to click
+  author: Jeffrey Lamb
+  website: https://jeffreylamb.vercel.app/
+  sandboxed: true
+  scripts: [ jumpingbutton.lua ]
+  @onLoad: init()
+  @onUnload: terminate()

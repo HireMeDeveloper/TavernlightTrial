@@ -1,0 +1,12 @@
+MainWindow
+  !text: tr('JumpButton')
+  size: 450 450
+
+  @onEnter: modules.client_button.destroy()
+  @onEscape: modules.client_button.destroy()
+
+  Button
+    id: jumpingButton
+    !text: tr('Jump!')
+    width: 64
+    @onClick: resetButtonPosition()
