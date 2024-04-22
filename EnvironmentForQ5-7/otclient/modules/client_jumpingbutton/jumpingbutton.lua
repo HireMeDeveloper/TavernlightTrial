@@ -24,7 +24,6 @@ function init()
 end
 
 function updateLeftMovement()
-
     -- calculate the minimum X value that would reset the button
     local minX = jumpWindow:getX() + 20
 
@@ -51,12 +50,11 @@ function updateLeftMovement()
 end
 
 function stopLeftMovementEvent()
-	if updateLeftMovementEvent then
+    if updateLeftMovementEvent then
         updateLeftMovementEvent:cancel()
         updateLeftMovementEvent = nil
     end
 end
-
 
 function terminate()
     disconnect(g_game, {
@@ -89,11 +87,11 @@ function resetButtonPosition()
     local parentPosition = jumpWindow:getPosition()
     jumpingButton:setX(parentPosition.x + 380)
 
-    -- Use a random Y position 
+    -- Use a random Y position
     local randY = math.random(30, 380)
     jumpingButton:setY(parentPosition.y + randY)
 
-    -- Clear the current event loop 
+    -- Clear the current event loop
     stopLeftMovementEvent()
 
     -- Start a new event loop to move the button
@@ -101,7 +99,7 @@ function resetButtonPosition()
 end
 
 function online()
-    jumpButton:show()
+    windowButton:show()
 end
 
 function offline()
