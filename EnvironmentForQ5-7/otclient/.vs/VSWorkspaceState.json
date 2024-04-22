@@ -8,8 +8,8 @@
   "ExpandedNodes": [
     "",
     "\\modules",
-    "\\modules\\client"
+    "\\modules\\gamelib"
   ],
-  "SelectedNode": "\\modules\\client\\client.otmod",
+  "SelectedNode": "\\modules\\gamelib\\spells.lua",
   "PreviewInSolutionExplorer": false
 }
