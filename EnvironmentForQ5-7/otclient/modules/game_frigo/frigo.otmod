@@ -1,0 +1,9 @@
+Module
+  name: game_frigo
+  description: Adds a spell menu with the frigo spell
+  author: Jeffrey Lamb
+  website: https://jeffreylamb.vercel.app/
+  sandboxed: true
+  scripts: [ frigo.lua ]
+  @onLoad: init()
+  @onUnload: terminate()

@@ -1,0 +1,12 @@
+C:\dev\forgottenserver-1.4\vc14\x64\Release\theforgottenserver.vcxproj.CopyComplete
+C:\dev\forgottenserver-1.4\vc14\x64\Release\theforgottenserver-x64.exe
+C:\dev\forgottenserver-1.4\vc14\x64\Release\boost_filesystem-vc143-mt-x64-1_84.dll
+C:\dev\forgottenserver-1.4\vc14\x64\Release\boost_iostreams-vc143-mt-x64-1_84.dll
+C:\dev\forgottenserver-1.4\vc14\x64\Release\zlib1.dll
+C:\dev\forgottenserver-1.4\vc14\x64\Release\bz2.dll
+C:\dev\forgottenserver-1.4\vc14\x64\Release\liblzma.dll
+C:\dev\forgottenserver-1.4\vc14\x64\Release\zstd.dll
+C:\dev\forgottenserver-1.4\vc14\x64\Release\fmt.dll
+C:\dev\forgottenserver-1.4\vc14\x64\Release\libmariadb.dll
+C:\dev\forgottenserver-1.4\vc14\x64\Release\lua51.dll
+C:\dev\forgottenserver-1.4\vc14\x64\Release\pugixml.dll

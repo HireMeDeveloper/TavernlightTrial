@@ -1,0 +1,16 @@
+MiniWindow
+  id: frigoWindow
+  !text: tr('Frigo Spell')
+  height: 100
+  icon: /images/topbuttons/cooldowns
+  @onClose: modules.game_frigo.onMiniWindowClose()
+  &save: true
+
+  Button
+    id: frigoButton
+    !text: tr('Frigo!')
+    width: 64
+    margin-top: 50
+    anchors.top: parent.top
+    anchors.left: parent.left
+    @onClick: castFrigo()
